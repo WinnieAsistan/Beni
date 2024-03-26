@@ -6,21 +6,21 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+API_ID = int(getenv("API_ID", "23362296"))
+API_HASH = getenv("API_HASH", "73ef6fa920229c8895099de5de055da5")
+BOT_TOKEN = getenv("BOT_TOKEN", "7154257081:AAEEsAD1T5r0R08nnXepS-CQZZbIJUrwC1E")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
-OWNER_ID = int(getenv("OWNER_ID", ))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002012716702"))
+OWNER_ID = int(getenv("OWNER_ID",5795687948 ))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "",
+    "https://github.com/MehmetAtes21/Pi",
 )
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQAFP80dMDUPTXQHTJiJgteCtQr4AAixB2cEegaeQV3NNpWwOjg0owbN9St3Pwe-2hoaXf_I00cEwgN39p3oZaZbLb3BD5fMdcGQcUzgZuG5rTYtQQHE1a76rzACF-LMQY56RkCKlXMQUKQQhXLBwe0bSJm7RA5RzyVrVv54iR19QG58L7rZLN4ECSegouP5ncb3s4iHzCDzCQrp1BLS0mZaUwsNYYe6-iCpHCZviCa9DECLvQ7RhK-2aPWUW3urCqbnh6S6FF3zRkUNKgVSVhoJAw3P0lvJ-gfUwaYeSYNcWTicqbnz-SqqNJBbu_0WaKHh6ZexDG6hsHO9xw2dDHdqAAAAAVlzLgwA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
