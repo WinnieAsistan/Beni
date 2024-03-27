@@ -17,8 +17,8 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/WinnieAsistan/Beni",
 )
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/"botssdestek)
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/"botssduyuru)
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/"botsdestek)
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/"botsduyuru)
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 STRING1 = getenv("STRING_SESSION", "BQAFP80dMDUPTXQHTJiJgteCtQr4AAixB2cEegaeQV3NNpWwOjg0owbN9St3Pwe-2hoaXf_I00cEwgN39p3oZaZbLb3BD5fMdcGQcUzgZuG5rTYtQQHE1a76rzACF-LMQY56RkCKlXMQUKQQhXLBwe0bSJm7RA5RzyVrVv54iR19QG58L7rZLN4ECSegouP5ncb3s4iHzCDzCQrp1BLS0mZaUwsNYYe6-iCpHCZviCa9DECLvQ7RhK-2aPWUW3urCqbnh6S6FF3zRkUNKgVSVhoJAw3P0lvJ-gfUwaYeSYNcWTicqbnz-SqqNJBbu_0WaKHh6ZexDG6hsHO9xw2dDHdqAAAAAVlzLgwA")
 STRING2 = getenv("STRING_SESSION2", None)
